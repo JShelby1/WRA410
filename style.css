@@ -1,6 +1,6 @@
 body {
-    background-color: #EEE;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    background-color: #97a2a2;
+    font-family: Verdana,Geneva,sans-serif; 
 }
 
 a {
@@ -32,14 +32,22 @@ h1, h2, h3  {
 }
 
 #nav {
-  width: 150px;
-  float: left;
-  padding: 20px;
+  width: 100%;
+  float: none;
+  align-content: center;
+  background-color:  #d3d3d3;
+  
 }
 
 #nav ul {
   list-style-type: none;
+  text-align: center;
   padding: 0;
+}
+
+#nav li {
+  display: inline-block;
+  padding-right: 20px;
 }
 
 
@@ -54,8 +62,8 @@ h1, h2, h3  {
 }
 
 #student-group {
-  clear: both;
-  margin: 20px;
+
+  margin: 10px;
   border: 20px;
   padding: 10px;
   background-color:  #d3d3d3;
@@ -79,4 +87,44 @@ h1, h2, h3  {
   font-weight: lighter;
   color: black;
   text-align: left;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 200px;
+}
+
+.schedule-containter {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: 200px;
+}
+
+#schedule-card {
+  background-color: white;
+  box-shadow: 10px 5px 5px gray;
+  height: auto;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 5px;
+
+}
+
+.schedule-wrapper {
+  width: 80%;
+}
+
+.background {
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.header {
+  background-color: #18453B;
+}
+
+.images {
+  
 }

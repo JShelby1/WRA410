@@ -11,19 +11,20 @@ Revise the following section in your README.md file with a short description of 
 ## Required Changes to WRA 410
 
 1. Make changes to the background color of a page and a div.
+changed the background color
 
 2. Use a new font.
-
+uses verdana
 3. Include two images.
-
+github and rails image on index.html
 4. Use a table to format the Grading Scale on the Assignments page.
-
+new format
 5. Reformat the Student Groups. Use a different color for links, add a title for each group, seperate each student. Use multiple columns for the divs.  
-
+completed all
 6. Add navgation to the Schedule webpage.
-
+added navigation
 7. Revise the rows and columns on the Schedule webpage so the information is clearer or prettier.
-
+looks prettier
 
 ## Grading Criteria
 
